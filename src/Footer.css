@@ -1,0 +1,18 @@
+/* General styling for the footer */
+.footer {
+    background-color: #333; /* Dark background */
+    height: 80px;
+    color: #fff;           /* White text color */
+    text-align: center;     /* Center the text */
+    padding: 20px;          /* Add padding around the content */
+    position: fixed;        /* Fix the footer at the bottom */
+    bottom: 0;              /* Align to the bottom of the page */
+    width: 100%;            /* Full width */
+  }
+  
+  .footer h1 {
+    font-size: 16px;        /* Set font size */
+    margin: 0;              /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set a clean font family */
+  }
+  

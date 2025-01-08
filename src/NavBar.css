@@ -1,0 +1,52 @@
+
+  
+  nav {
+    background-color: #333; /* Dark background for the navigation bar */
+   
+    padding: 10px 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .nav-logo a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #f1c40f; /* Yellow color on hover */
+  }
+  
+  .nav-links a:active {
+    color: #e67e22; /* Orange color on active */
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+  
+    .nav-links a {
+      margin: 5px 0;
+    }
+  }
+  
