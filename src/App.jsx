@@ -1,4 +1,5 @@
-import SearchBox from "./SearchBox";
+
+import WeatherApp from "./WeatherApp";
 import Navbar from "./NavBar";
 import Footer from "./Footer";
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <SearchBox />
+      <WeatherApp />
       <Footer />
     </>
   );
